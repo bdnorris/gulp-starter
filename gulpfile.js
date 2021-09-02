@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-var sass = require("gulp-sass");
+const sass = require('gulp-sass')(require('sass'));
 var postcss = require("gulp-postcss");
 var sourcemaps = require("gulp-sourcemaps");
 var autoprefixer = require("autoprefixer");
